@@ -25,7 +25,7 @@ def simular(quantidade_simulacoes, m):
         lista_ultimo_vertice_evento.append(vertice_particula)
         # print("\n")
 
-        if i < 4:
+        if i < 1:
             plt.xlabel("Passos")
             plt.ylabel("Vértices")
             plt.plot(passos)
@@ -40,4 +40,4 @@ def simular(quantidade_simulacoes, m):
         probabilidade = quantidade_eventos / quantidade_simulacoes
         print(f"Evento terminado em: {i} - Nº eventos: {quantidade_eventos} - P: {probabilidade}")
 
-simular(100, 100)
+simular(100000, 10)
